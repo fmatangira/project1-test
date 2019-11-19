@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.munchi-intro').slideDown("slow");
+  $('.munchi-intro').fadeIn();
   $('#zipInput').focus();
 
   $('#zipInput').on('keyup', function(event){
